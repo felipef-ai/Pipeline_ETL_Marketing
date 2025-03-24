@@ -1,0 +1,22 @@
+[project]
+name = "pipeline-etl-marketing"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Felipe Fernandes",email = "felipefernandes.mkt@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "setuptools (>=76.1.0,<77.0.0)",
+    "ydata-profiling (>=4.15.0,<5.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "streamlit (>=1.43.2,<2.0.0)",
+    "plotly (>=6.0.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
